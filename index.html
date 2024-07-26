@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite-Slider</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>An infinite slider animation in CSS creates a continuous loop of content that smoothly moves across the screen. It typically uses keyframe animations to translate a container element horizontally, giving the illusion of endless scrolling. The key is to duplicate the first few items at the end of the list, so when the animation reaches the end, it seamlessly transitions back to the start. This effect is achieved through careful positioning, overflow handling, and linear animation timing, often complemented by JavaScript for enhanced functionality and responsiveness.</h1>
+      <div class="content">
+      <!-- <img src="images/img.png"> -->
+        <p>CSS ANIMATION<br><span>Infinite Slider Animation Using HTML/CSS</span></p>
+      </div>
+    
+    <div class="slider" style="
+    --width: 100px; 
+    --height: 50px;
+    --quantity: 10;
+    ">
+      <div class="list">
+        <div class="item" style="--position: 1">
+          <p>ROBOT</p>
+        </div>
+        <div class="item" style="--position: 2">
+          <p>AI</p>
+        </div>
+        <div class="item" style="--position: 3">
+          <p>ROBOT</p>
+        </div>
+        <div class="item" style="--position: 4">
+          <p>AI</p>
+        </div>
+        <div class="item" style="--position: 5">
+          <p>ROBOT</p>
+        </div>
+        <div class="item" style="--position: 6">
+          <p>AI</p>
+        </div>
+        <div class="item" style="--position: 7">
+          <p>ROBOT</p>
+        </div>
+        <div class="item" style="--position: 8">
+          <p>AI</p>
+        </div>
+        <div class="item" style="--position: 9">
+          <p>ROBOT</p>
+        </div>
+        <div class="item" style="--position: 10">
+          <p>AI</p>
+        </div>
+      </div>
+    </div>
+    <div class="slider img" reverse="true" style="
+    --width: 150px;
+    --height: 150px;
+    --quantity: 10;
+    
+    ">
+      <div class="list">
+        <div class="item" style="--position: 1"><img src="images/img-1.jpg"></div>
+        <div class="item" style="--position: 2"><img src="images/img-2.jpg"></div>
+        <div class="item" style="--position: 3"><img src="images/img-3.jpg"></div>
+        <div class="item" style="--position: 4"><img src="images/img-4.png"></div>
+        <div class="item" style="--position: 5"><img src="images/img-5.png"></div>
+        <div class="item" style="--position: 6"><img src="images/img-6.png"></div>
+        <div class="item" style="--position: 7"><img src="images/img-7.png"></div>
+        <div class="item" style="--position: 8"><img src="images/img-8.png"></div>
+        <div class="item" style="--position: 9"><img src="images/img-9.png"></div>
+        <div class="item" style="--position: 10"><img src="images/img-10.png"></div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
